@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Revalue - Kontak</title>
+</head>
+<body>
+    <header>
+        <h1>Revalue: Inisiatif Daur Ulang Cerdas</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="artikel.html">Artikel & Harga</a></li>
+            <li><a href="kontak.html">Gabung Mitra</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>Pendaftaran Mitra Pengepul</h2>
+        <p>Ingin bergabung menjadi mitra pengumpulan sampah plastik di daerahmu? Silakan lengkapi data di bawah ini:</p>
+        
+        <!-- Elemen HTML Form -->
+        <form action="#" method="POST">
+            <!-- 1. Input Tipe Text -->
+            <div>
+                <label for="nama_lengkap">Nama Lengkap Penanggung Jawab:</label><br>
+                <input type="text" id="nama_lengkap" name="nama" required>
+            </div>
+            <br>
+            
+            <!-- 2. Input Tipe Email -->
+            <div>
+                <label for="alamat_email">Email Aktif:</label><br>
+                <input type="email" id="alamat_email" name="email" required>
+            </div>
+            <br>
+            
+            <!-- 3. Input Tipe Radio -->
+            <div>
+                <p>Kapasitas Pengumpulan per Bulan:</p>
+                <input type="radio" id="kapasitas_kecil" name="kapasitas" value="Di bawah 50 KG" required>
+                <label for="kapasitas_kecil">Kecil (Di bawah 50 KG)</label><br>
+                
+                <input type="radio" id="kapasitas_besar" name="kapasitas" value="Di atas 50 KG">
+                <label for="kapasitas_besar">Besar (Di atas 50 KG)</label>
+            </div>
+            <br>
+            
+            <!-- 4. Input Tipe Checkbox -->
+            <div>
+                <input type="checkbox" id="persetujuan" name="setuju" value="Setuju" required>
+                <label for="persetujuan">Saya bersedia memilah sampah plastik sebelum disetorkan ke bank sampah pusat.</label>
+            </div>
+            <br>
+            
+            <!-- Button Submit -->
+            <button type="submit">Kirim Pendaftaran</button>
+        </form>
+    </main>
+    
+    <footer>
+        <p>tugas laprak desweb</p>
+    </footer>
+</body>
+</html>
